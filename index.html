@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ладно — персональный семейный навигатор</title>
+  <meta
+    name="description"
+    content="Ладно — персональный семейный навигатор для молодых родителей. Диагностика семьи, приоритизация главной боли и 4-недельный маршрут под вашу ситуацию."
+  />
+
+  <meta property="og:title" content="Ладно — персональный семейный навигатор" />
+  <meta
+    property="og:description"
+    content="Пройдите диагностику семьи и получите понятный маршрут под вашу главную семейную боль."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Ладно — на главную">
+        <span class="logo-mark" aria-hidden="true">
+          <span class="logo-dot logo-dot--green"></span>
+          <span class="logo-dot logo-dot--beige"></span>
+          <span class="logo-smile"></span>
+        </span>
+
+        <span class="logo-text">
+          <span class="logo-name">Ладно</span>
+          <span class="logo-subtitle">семейный навигатор</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#how">Как это работает</a>
+        <a href="#problems">С какими проблемами</a>
+        <a href="#inside">Что внутри</a>
+        <a href="#tariffs">Тарифы</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="button button--small button--primary js-form-link" href="#">
+        Пройти диагностику
+      </a>
+
+      <button class="mobile-menu-button" type="button" aria-label="Открыть меню" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Мобильная навигация" data-mobile-nav>
+      <a href="#how">Как это работает</a>
+      <a href="#problems">С какими проблемами</a>
+      <a href="#inside">Что внутри</a>
+      <a href="#tariffs">Тарифы</a>
+      <a href="#faq">FAQ</a>
+      <a class="button button--primary js-form-link" href="#">Пройти диагностику</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Персональный семейный навигатор</p>
+
+          <h1>
+            Понятный план под вашу главную семейную боль
+          </h1>
+
+          <p class="hero-description">
+            Пройдите диагностику семьи, выберите главный приоритет и получите
+            4-недельный маршрут: материалы, чек-листы, домашние задания
+            и поддержку специалиста под вашу ситуацию.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button--primary js-form-link" href="#">
+              Пройти диагностику
+            </a>
+
+            <a class="button button--secondary js-checklist-link" href="#">
+              Забрать чек-лист
+            </a>
+          </div>
+
+          <div class="notice-card">
+            <div class="notice-icon-slot" aria-hidden="true"></div>
+            <div>
+              <strong>Первый beta-запуск: ограниченное число семей.</strong>
+              <span>Маршруты собираем вручную и улучшаем по обратной связи.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Место для hero-изображения">
+          <div class="decor-blob decor-blob--blue"></div>
+          <div class="decor-blob decor-blob--green"></div>
+          <div class="decor-blob decor-blob--beige"></div>
+
+          <div class="media-slot media-slot--hero">
+            <span>Здесь будет hero-фото семьи</span>
+            <small>assets/hero-family.png</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="value-strip">
+          <article class="value-item">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Диагностируем ситуацию</h3>
+            <p>Сначала понимаем, что сейчас сильнее всего мешает вашей семье.</p>
+          </article>
+
+          <article class="value-item">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Выбираем приоритет</h3>
+            <p>Не пытаемся решить всё сразу — начинаем с главной боли.</p>
+          </article>
+
+          <article class="value-item">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Собираем маршрут</h3>
+            <p>Даём материалы, чек-листы и задания под вашу ситуацию.</p>
+          </article>
+
+          <article class="value-item">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Проверяем с экспертами</h3>
+            <p>Материалы проходят проверку профильными специалистами.</p>
+          </article>
+
+          <article class="value-item">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Ведём маленькими шагами</h3>
+            <p>Вы двигаетесь по понятному плану, а не тонете в советах.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problems">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">С какими проблемами</p>
+          <h2>С чем можно прийти в “Ладно”</h2>
+          <p>
+            У каждой семьи свой главный хаос. Мы начинаем не с общего курса,
+            а с диагностики и выбора приоритета.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Ребёнок тяжело засыпает</h3>
+            <p>Собираем вечерний ритуал и смотрим, что перегружает ребёнка и родителей перед сном.</p>
+          </article>
+
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Папа мало включён</h3>
+            <p>Помогаем перейти от “помогает” к “тоже отвечает” и распределить зоны ответственности.</p>
+          </article>
+
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Один родитель тащит всё</h3>
+            <p>Разбираем нагрузку семьи и ищем, что можно перераспределить уже на этой неделе.</p>
+          </article>
+
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Истерики и сложные реакции</h3>
+            <p>Даём понятные шаги: что делать в моменте, как держать границы и не проваливаться в вину.</p>
+          </article>
+
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Ссоры после рождения ребёнка</h3>
+            <p>Помогаем увидеть, где сломалась система нагрузки, и договориться без постоянных обвинений.</p>
+          </article>
+
+          <article class="problem-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h3>Развитие без тревожной гонки</h3>
+            <p>Подбираем спокойные ориентиры и простые действия по возрасту ребёнка.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Как это работает</p>
+          <h2>Не общий курс, а маршрут под вашу главную боль</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-number">1</div>
+            <h3>Проходите диагностику</h3>
+            <p>Отвечаете на вопросы о ребёнке, быте, сне, обязанностях, тревоге и поддержке.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">2</div>
+            <h3>Выбираем главный приоритет</h3>
+            <p>Определяем, с чего лучше начать: сон, отец, обязанности, истерики, тревога, развитие или отношения.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">3</div>
+            <h3>Получаете маршрут</h3>
+            <p>Мы вручную собираем 4-недельный план: материалы, чек-листы и домашние задания под вашу ситуацию.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">4</div>
+            <h3>Двигаетесь с поддержкой</h3>
+            <p>В Beta — материалы и вебинар по частой боли. В Beta Plus — личный созвон и более плотное сопровождение.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="route">
+      <div class="container">
+        <div class="route-card">
+          <div>
+            <p class="eyebrow">Что вы получаете</p>
+            <h2>Маршрут после диагностики</h2>
+            <p>
+              Маршрут — это не просто подборка статей. Это понятный план на 4 недели
+              вокруг вашей главной семейной боли.
+            </p>
+
+            <ul class="check-list">
+              <li>индивидуальный фокус под вашу семью;</li>
+              <li>проверенные материалы и чек-листы;</li>
+              <li>понятные домашние задания;</li>
+              <li>поддержка в Telegram;</li>
+              <li>вебинар с психологом по частой боли потока;</li>
+              <li>личный созвон со специалистом в Beta Plus.</li>
+            </ul>
+          </div>
+
+          <div class="example-card">
+            <div class="example-label">Пример маршрута</div>
+            <h3>Главная боль — засыпание</h3>
+
+            <p class="example-text">
+              Начинаем с вечернего ритуала, потому что укладывание каждый вечер
+              вызывает стресс, усиливает усталость и становится точкой ссор.
+            </p>
+
+            <div class="mini-plan">
+              <strong>План на первую неделю:</strong>
+              <ol>
+                <li>Заполнить чек-лист текущего вечера.</li>
+                <li>Выбрать 5 повторяющихся шагов ритуала.</li>
+                <li>Договориться, кто за что отвечает.</li>
+                <li>Убрать один источник перевозбуждения.</li>
+                <li>Отметить, что сработало и что мешает.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="checklist">
+      <div class="container">
+        <div class="split-card">
+          <div>
+            <p class="eyebrow">Бесплатно</p>
+            <h2>Чек-лист “Семейный план на неделю”</h2>
+            <p>
+              Поможет за 15 минут понять, где сейчас главный хаос в семье,
+              распределить обязанности, выбрать вечерний ритуал и договориться,
+              что каждый родитель берёт на себя на этой неделе.
+            </p>
+
+            <ul class="check-list">
+              <li>зоны ответственности мамы и папы;</li>
+              <li>вечерний ритуал;</li>
+              <li>главная сложная ситуация недели;</li>
+              <li>восстановление родителей;</li>
+              <li>семейная договорённость.</li>
+            </ul>
+
+            <a class="button button--primary js-checklist-link" href="#">
+              Забрать чек-лист
+            </a>
+          </div>
+
+          <div class="media-slot media-slot--document">
+            <span>Здесь будет превью чек-листа</span>
+            <small>assets/checklist-preview.png</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="inside">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Что внутри</p>
+          <h2>Что входит в beta-запуск</h2>
+          <p>
+            Сейчас маршруты собираются вручную, чтобы мы могли увидеть реальные повторяющиеся боли
+            родителей и постепенно собрать базу знаний “Ладно”.
+          </p>
+        </div>
+
+        <div class="inside-grid">
+          <article class="inside-card">
+            <h3>Диагностика семьи</h3>
+            <p>Вы рассказываете, что сейчас сложнее всего: сон, обязанности, отец, истерики, тревога, развитие или ссоры.</p>
+          </article>
+
+          <article class="inside-card">
+            <h3>Приоритизация боли</h3>
+            <p>Мы помогаем выбрать один главный фокус, чтобы не пытаться исправить всё сразу.</p>
+          </article>
+
+          <article class="inside-card">
+            <h3>4-недельный маршрут</h3>
+            <p>Материалы, чек-листы и домашние задания под вашу ситуацию и ваш ресурс.</p>
+          </article>
+
+          <article class="inside-card">
+            <h3>Проверка экспертами</h3>
+            <p>Материалы готовим сами, но отдаём на проверку профильным специалистам.</p>
+          </article>
+
+          <article class="inside-card">
+            <h3>Вебинар по частой боли</h3>
+            <p>Проводим общий вебинар со специалистом на тему, которая чаще всего повторяется у участников.</p>
+          </article>
+
+          <article class="inside-card">
+            <h3>Поддержка в Plus</h3>
+            <p>В расширенном тарифе добавляем личный созвон и более точную корректировку маршрута.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tariffs">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Тарифы</p>
+          <h2>Выберите формат участия</h2>
+          <p>
+            Это beta-цены первого запуска. Сейчас маршруты собираются вручную,
+            поэтому количество мест ограничено.
+          </p>
+        </div>
+
+        <div class="tariff-grid">
+          <article class="tariff-card">
+            <div class="tariff-top">
+              <h3>Beta</h3>
+              <p>Для тех, кто хочет получить диагностику, маршрут и материалы под свою главную боль.</p>
+            </div>
+
+            <div class="price">2 990 ₽</div>
+
+            <ul class="tariff-list">
+              <li>диагностика семьи;</li>
+              <li>определение главного приоритета;</li>
+              <li>4-недельный маршрут;</li>
+              <li>материалы под вашу боль;</li>
+              <li>чек-листы и домашние задания;</li>
+              <li>доступ к закрытому Telegram-каналу;</li>
+              <li>общий вебинар со специалистом по самой частой боли потока;</li>
+              <li>возможность задать вопрос для группового разбора.</li>
+            </ul>
+
+            <a class="button button--primary button--full js-form-link" href="#">
+              Подать заявку
+            </a>
+          </article>
+
+          <article class="tariff-card tariff-card--featured">
+            <div class="badge">Для тех, кому нужна личная поддержка</div>
+
+            <div class="tariff-top">
+              <h3>Beta Plus</h3>
+              <p>Для родителей, которым важно разобрать свою ситуацию глубже и двигаться плотнее.</p>
+            </div>
+
+            <div class="price">14 990 ₽</div>
+
+            <ul class="tariff-list">
+              <li>всё из тарифа Beta;</li>
+              <li>личный созвон 1 на 1 со специалистом;</li>
+              <li>персональный разбор диагностики;</li>
+              <li>корректировка маршрута после созвона;</li>
+              <li>приоритетные вопросы;</li>
+              <li>более интенсивное сопровождение.</li>
+            </ul>
+
+            <a class="button button--primary button--full js-form-link" href="#">
+              Подать заявку
+            </a>
+          </article>
+        </div>
+
+        <p class="tariff-note">
+          Ладно не заменяет врача, педиатра, личную терапию или экстренную помощь.
+          Мы помогаем семье разложить ситуацию, выбрать главный фокус и двигаться маленькими понятными шагами.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="internet-card">
+          <p class="eyebrow">Почему не просто интернет</p>
+          <h2>Зачем нужен “Ладно”, если советы можно найти самостоятельно?</h2>
+
+          <p>
+            Да, многое о сне, истериках, обязанностях, развитии ребёнка и отношениях
+            можно найти самостоятельно.
+          </p>
+
+          <p>
+            Проблема не в том, что информации мало. Проблема в том, что её слишком много.
+            Молодому родителю часто нужно не ещё 50 статей, а понятный ответ:
+            с чего начать именно нашей семье, какая проблема сейчас главная
+            и что можно сделать на этой неделе.
+          </p>
+
+          <p>
+            “Ладно” помогает пройти диагностику, выделить главный приоритет
+            и получить отфильтрованный маршрут: материалы, чек-листы и задания
+            под вашу ситуацию.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="safety">
+      <div class="container">
+        <div class="safety-grid">
+          <div class="safety-card">
+            <div class="icon-slot" aria-hidden="true"></div>
+            <h2>Бережно и безопасно</h2>
+            <p>
+              Мы не ставим диагнозы, не даём медицинских назначений и не обещаем
+              “исправить ребёнка”. Если ситуация требует врача, педиатра, личной терапии
+              или экстренной помощи, мы честно скажем, что нужен профильный специалист.
+            </p>
+
+            <ul class="check-list">
+              <li>не обвиняем родителей;</li>
+              <li>не обещаем чудес;</li>
+              <li>не даём медицинских назначений;</li>
+              <li>не публикуем личные истории без разрешения;</li>
+              <li>материалы проходят экспертную проверку.</li>
+            </ul>
+          </div>
+
+          <div class="safety-card safety-card--contacts">
+            <h3>Есть вопросы?</h3>
+            <p>Напишите нам в Telegram или на почту.</p>
+
+            <div class="contact-list">
+              <a class="js-support-link" href="#">@REPLACE_WITH_REAL_SUPPORT</a>
+              <a href="mailto:hello@ladno.tech">hello@ladno.tech</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="telegram">
+      <div class="container">
+        <div class="split-card split-card--telegram">
+          <div>
+            <p class="eyebrow">Telegram-канал</p>
+            <h2>Подпишитесь на канал “Ладно”</h2>
+            <p>
+              Там мы публикуем материалы для молодых родителей: про сон,
+              обязанности, включение отца, тревогу, истерики, развитие ребёнка
+              и жизнь без постоянного хаоса.
+            </p>
+
+            <a class="button button--secondary js-telegram-link" href="#">
+              Перейти в Telegram
+            </a>
+          </div>
+
+          <div class="media-slot media-slot--phone">
+            <span>Здесь будет мокап Telegram</span>
+            <small>assets/telegram-preview.png</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2>Частые вопросы</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Это курс?</summary>
+            <p>
+              Не совсем. В beta-запуске “Ладно” работает как ручной семейный навигатор:
+              вы проходите диагностику, мы определяем главную боль и собираем маршрут
+              на 4 недели под вашу ситуацию.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Кому подойдёт?</summary>
+            <p>
+              Родителям детей 0–3 лет, особенно если дома стало больше хаоса,
+              усталости, ссор или непонимания, с чего начать.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Что значит “персональный маршрут”?</summary>
+            <p>
+              Это план вокруг вашей главной боли. Например, если главный запрос —
+              засыпание, первые материалы, чек-листы и задания будут про вечерний
+              ритуал и действия родителей вокруг сна.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Кто делает материалы?</summary>
+            <p>
+              Команда “Ладно” готовит материалы, чек-листы и домашние задания,
+              а затем отдаёт их на проверку профильным специалистам.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Будет ли психолог?</summary>
+            <p>
+              В beta-запуске планируется общий вебинар со специалистом по самой частой боли участников.
+              В тарифе Beta Plus добавляется личный созвон 1 на 1.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Это заменяет врача или терапию?</summary>
+            <p>
+              Нет. “Ладно” не заменяет врача, педиатра, личную терапию или экстренную помощь.
+              Мы помогаем семье структурировать ситуацию и сделать первые понятные шаги.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Сколько времени нужно уделять?</summary>
+            <p>
+              В диагностике мы спросим, сколько времени в неделю вы готовы уделять.
+              Маршрут будет собран с учётом вашего ресурса: без перегруза и ощущения
+              “ещё одной обязанности”.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container">
+        <div class="final-card">
+          <div>
+            <p class="eyebrow">Первый шаг</p>
+            <h2>Начните с диагностики семьи</h2>
+            <p>
+              Ответьте на несколько вопросов, получите чек-лист “Семейный план на неделю”
+              и попадите в список первого beta-запуска “Ладно”.
+            </p>
+          </div>
+
+          <div class="final-actions">
+            <a class="button button--primary js-form-link" href="#">
+              Пройти диагностику
+            </a>
+
+            <a class="button button--secondary js-telegram-link" href="#">
+              Перейти в Telegram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© Ладно, 2026</span>
+      <span>Персональный семейный навигатор</span>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
