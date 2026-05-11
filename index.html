@@ -19,6 +19,14 @@
   <meta property="og:image" content="assets/og-image.png" />
 
   <link rel="icon" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -26,10 +34,13 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="#top" aria-label="Ладно — на главную">
-        <span class="logo-mark" aria-hidden="true">
-          <span class="logo-dot logo-dot--green"></span>
-          <span class="logo-dot logo-dot--beige"></span>
-          <span class="logo-smile"></span>
+        <span class="logo-image-wrap" aria-hidden="true">
+          <img
+            class="logo-image"
+            src="assets/logo-mark.png"
+            alt=""
+            onerror="this.style.display='none'"
+          />
         </span>
 
         <span class="logo-text">
@@ -72,9 +83,7 @@
         <div class="hero-content">
           <p class="eyebrow">Персональный семейный навигатор</p>
 
-          <h1>
-            Понятный план под вашу главную семейную боль
-          </h1>
+          <h1>Понятный план под вашу главную семейную боль</h1>
 
           <p class="hero-description">
             Пройдите диагностику семьи, выберите главный приоритет и получите
@@ -106,7 +115,7 @@
           <div class="decor-blob decor-blob--green"></div>
           <div class="decor-blob decor-blob--beige"></div>
 
-          <div class="media-slot media-slot--hero">
+          <div class="image-placeholder image-placeholder--hero">
             <span>Здесь будет hero-фото семьи</span>
             <small>assets/hero-family.png</small>
           </div>
@@ -252,7 +261,7 @@
               <li>проверенные материалы и чек-листы;</li>
               <li>понятные домашние задания;</li>
               <li>поддержка в Telegram;</li>
-              <li>вебинар с психологом по частой боли потока;</li>
+              <li>вебинар со специалистом по частой боли потока;</li>
               <li>личный созвон со специалистом в Beta Plus.</li>
             </ul>
           </div>
@@ -306,7 +315,7 @@
             </a>
           </div>
 
-          <div class="media-slot media-slot--document">
+          <div class="image-placeholder image-placeholder--document">
             <span>Здесь будет превью чек-листа</span>
             <small>assets/checklist-preview.png</small>
           </div>
@@ -505,7 +514,7 @@
             </a>
           </div>
 
-          <div class="media-slot media-slot--phone">
+          <div class="image-placeholder image-placeholder--phone">
             <span>Здесь будет мокап Telegram</span>
             <small>assets/telegram-preview.png</small>
           </div>
